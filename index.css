@@ -492,6 +492,13 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+figcaption {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
