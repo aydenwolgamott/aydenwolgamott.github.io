@@ -492,6 +492,15 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+/* Control project image sizes */
+.work__image {
+    width: 100%;
+    max-width: 500px; /* Adjust this value */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 figcaption {
     font-size: 1.2rem;
     color: #666;
